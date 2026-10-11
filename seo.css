@@ -1,0 +1,230 @@
+/* seo.css: generated from main.css so re-tagged headings keep their exact look. */
+
+
+/* h2 -> h1.was-h2 */
+
+h1.was-h2 {
+	direction: rtl;
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: 0.225em;
+	line-height: 1em;
+	margin: 0 0 1em 0;
+	text-transform: uppercase;
+}
+
+h1.was-h2 a {
+	direction: rtl;
+	color: inherit;
+	text-decoration: none;
+}
+
+h1.was-h2 {
+	direction: rtl;
+	font-size: 2.15em;
+	line-height: 1.75em;
+}
+
+@media screen and (max-width: 736px) {
+h1.was-h2 {
+	direction: rtl;
+	font-size: 1.1em;
+	line-height: 1.65em;
+}
+}
+
+header.major h1.was-h2 {
+	border-bottom: solid 2px #fff;
+	display: inline-block;
+	padding-bottom: 1em;
+	position: relative;
+}
+
+header.major h1.was-h2:after {
+	content: '';
+	display: block;
+	height: 1px;
+}
+
+.wrapper.style1 h1.was-h2 {
+	color: #ffffff;
+}
+
+.wrapper.style1 header.major h1.was-h2 {
+	border-color: rgba(0, 0, 0, 0.125);
+}
+
+.wrapper.style3 h1.was-h2 {
+	color: #ffffff;
+}
+
+.wrapper.style3 header.major h1.was-h2 {
+	border-color: rgba(0, 0, 0, 0.125);
+}
+
+.wrapper.style5 h1.was-h2 {
+	color: #ffffff;
+}
+
+.wrapper.style5 header.major h1.was-h2 {
+	border-color: #dfdfdf;
+}
+
+#banner h1.was-h2 {
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+	-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+	-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+	transition: transform 0.5s ease, opacity 0.5s ease;
+	display: inline-block;
+	font-size: 2.50em;
+	opacity: 1;
+	padding: 0.35em 1em;
+	position: relative;
+	z-index: 1;
+}
+
+#banner h1.was-h2:before,
+#banner h1.was-h2:after {
+	-moz-transition: width 0.85s ease;
+	-webkit-transition: width 0.85s ease;
+	-ms-transition: width 0.85s ease;
+	transition: width 0.85s ease;
+	-moz-transition-delay: 0.25s;
+	-webkit-transition-delay: 0.25s;
+	-ms-transition-delay: 0.25s;
+	transition-delay: 0.25s;
+	background: #fff;
+	content: '';
+	display: block;
+	height: 2px;
+	position: absolute;
+	width: 100%;
+}
+
+#banner h1.was-h2:before {
+	top: 0;
+	left: 0;
+}
+
+#banner h1.was-h2:after {
+	bottom: 0;
+	right: 0;
+}
+
+@media screen and (max-width: 736px) {
+#banner h1.was-h2 {
+	font-size: 1.25em;
+}
+}
+
+body.is-preload #banner h1.was-h2 {
+	-moz-transform: scale(0.95);
+	-webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
+	opacity: 0;
+}
+
+body.is-preload #banner h1.was-h2:before,
+body.is-preload #banner h1.was-h2:after {
+	width: 0;
+}
+
+#main > header h1.was-h2 {
+	font-size: 2.5em;
+	margin: 0 0 0.5em 0;
+}
+
+@media screen and (max-width: 736px) {
+#main > header h1.was-h2 {
+	font-size: 2em;
+	margin: 0 0 1em 0;
+}
+}
+
+#main2 > header h1.was-h2 {
+	font-size: 2.5em;
+	margin: 0 0 0.5em 0;
+}
+
+@media screen and (max-width: 736px) {
+#main2 > header h1.was-h2 {
+	font-size: 2em;
+	margin: 0 0 1em 0;
+}
+}
+
+
+/* h1 -> div.site-logo */
+
+div.site-logo {
+	direction: rtl;
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: 0.225em;
+	line-height: 1em;
+	margin: 0 0 1em 0;
+	text-transform: uppercase;
+}
+
+div.site-logo a {
+	direction: rtl;
+	color: inherit;
+	text-decoration: none;
+}
+
+#header div.site-logo {
+	-moz-transition: opacity 0.2s ease;
+	-webkit-transition: opacity 0.2s ease;
+	-ms-transition: opacity 0.2s ease;
+	transition: opacity 0.2s ease;
+	height: inherit;
+	left: 1.25em;
+	line-height: inherit;
+	position: absolute;
+	top: 0;
+}
+
+#header div.site-logo a {
+	border: 0;
+	display: block;
+	height: inherit;
+	line-height: inherit;
+}
+
+@media screen and (max-width: 736px) {
+#header div.site-logo a {
+	font-size: 0.8em;
+}
+}
+
+#header.alt div.site-logo {
+	pointer-events: none;
+	opacity: 0;
+}
+
+
+/* products.html: old <h1> product lines -> h2.prod-name / p.prod-spec, same look */
+
+.spotlight .content h2.prod-name,
+.spotlight .content p.prod-spec {
+	direction: rtl;
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: 0.225em;
+	line-height: 1em;
+	margin: 0 0 1em 0;
+	text-transform: uppercase;
+}
+
+.spotlight .content h2.prod-name,
+.spotlight .content p.prod-spec {
+	font-size: 1em;
+	line-height: 1em;
+	padding: 0;
+	border: 0;
+}
